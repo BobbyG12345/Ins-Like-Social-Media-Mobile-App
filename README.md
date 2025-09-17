@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+Spotlight
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Spotlight is an Instagram-inspired social app built with React Native, Expo, Convex, and Clerk. It allows users to share posts, follow others, and receive real-time notifications for likes, comments, and follows.
 
-## Get started
+Features
 
-1. Install dependencies
+User Authentication with Clerk
 
-   ```bash
-   npm install
-   ```
+Create & View Posts with images and captions
 
-2. Start the app
+Feed displaying posts from followed users
 
-   ```bash
-   npx expo start
-   ```
+Real-time Notifications for likes, comments, and follows
 
-In the output, you'll find options to open the app in a
+Bookmarks to save posts
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Follow & Follower System
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Edit Profile (username and bio)
 
-## Get a fresh project
+Tech Stack
 
-When you're ready, run:
+Frontend: React Native, Expo
 
-```bash
-npm run reset-project
-```
+Backend: Convex
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Authentication: Clerk
 
-## Learn more
+Installation
 
-To learn more about developing your project with Expo, look at the following resources:
+Clone the repository:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+git clone https://github.com/yourusername/spotlight.git
+cd spotlight
 
-## Join the community
+Install dependencies:
 
-Join our community of developers creating universal apps.
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# or
+
+yarn install
+
+Run the app:
+
+expo start
+
+Usage
+
+Sign up or log in via Clerk
+
+Create posts with images and captions
+
+Explore the feed, like or comment on posts
+
+Follow other users and receive notifications
+
+Bookmark posts for later
+
+Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+License
+
+MIT License
