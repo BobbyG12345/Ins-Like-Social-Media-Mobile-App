@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -49,7 +48,3 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# Ins-Like-Social-Media-Mobile-App
-Spotlight is an Instagram-inspired social app built with React Native, Expo, Convex, and Clerk. Users can post images with captions, follow others, and receive real-time notifications for likes, comments, and follows. The app also supports bookmarks, a personal feed, and editing username and bio.
->>>>>>> 7df728d9aacebd3b086e2c9ea990057cbdf95af3
